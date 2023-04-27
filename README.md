@@ -2,7 +2,7 @@
 ### Final Project for DSGA3001 (Probability and Statistics - 2)
 
 <h3>Motivation:</h3>
-<b>Where (location: city and area) and what type of (cuisine type, budget range, restaurant type) restaurant should we open in Bangalore? </b>
+<b>Where (location: city and area) and what type of (cuisine type, budget range, restaurant type) restaurant should we open in Bangalore? What other paramters determine the success of a restaurant?</b>
 <br>
 Overarchingly, we are interested in this because: We want to see if we can use data science to accurately predict the success of a restaurant based on ratings and reviews of restaurants from 5 years ago. This will be interesting to compare with the restaurants that are currently open to see if the same success metrics would apply today.
 <br>
@@ -28,4 +28,13 @@ In initial conversations about answering these questions, we each came up with a
 <br>
 From this result, it is clear that there are many ways to approach this question which will result in different answers. This approach does not consider underlying relationships in the data that can skew the results.
 It is because of this, that we plan to pursue this project and find the best answers through a data science point of view.
+
+<h3>Dataset</h3>
+The dataset for this project comes from Kaggle. It is the “Zomato Bangalore Restaurants” dataset. It includes information about restaurants in Bangalore, including URL, address, restaurant name, ability to order online, ability to book a table, rate, votes, phone number, location, restaurant type, most liked dish, cuisines, approximate cost per person, review highlights, type of food it is listed as on website and location it is listed in on website. 
+<br>
+<br>
+The main metrics that we will focus on are ratings, location identifiers, restaurant types, cuisines, and approximate cost per person. These are appropriate to answer our question because in an intuitive sense, they capture characteristics that are important in having a successful restaurant from both the owner’s and the consumer’s point of view. 
+<br>
+<br>
+<b>Success Metric:</b> The ratings will be used as the success metric for this project. Initially, the number of votes was considered as a success metric. However, upon exploration of the data, the distribution of votes is heavily skewed as more than 50% of the data had fewer than 50 votes as shown in Figure 1a. Additionally, older restaurants and restaurants with higher ratings are likely to have more votes. Due to these issues, the ratings were chosen as the sole success metric.
 
