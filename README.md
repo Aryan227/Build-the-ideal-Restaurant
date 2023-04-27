@@ -2,7 +2,7 @@
 ### Final Project for DSGA3001 (Probability and Statistics - 2)
 
 <h3>Motivation:</h3>
-Where (location: city and area) and what type of (cuisine type, budget range, restaurant type) restaurant should we open in Bangalore? 
+<b>Where (location: city and area) and what type of (cuisine type, budget range, restaurant type) restaurant should we open in Bangalore? </b>
 <br>
 Overarchingly, we are interested in this because: We want to see if we can use data science to accurately predict the success of a restaurant based on ratings and reviews of restaurants from 5 years ago. This will be interesting to compare with the restaurants that are currently open to see if the same success metrics would apply today.
 <br>
