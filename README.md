@@ -11,7 +11,7 @@ In initial conversations about answering these questions, we each came up with a
 <br>
 
 <h4>Aryan:</h4>
-<ul>Location: BTM
+<ul>Location: BTM </ul>
 <ul>Cuisine: Asian, Chinese, Thai, Momos
 <ul> Type: Buffet
 <ul> Price Range: $$$$
