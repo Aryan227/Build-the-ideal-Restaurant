@@ -38,3 +38,9 @@ The main metrics that we will focus on are ratings, location identifiers, restau
 <br>
 <b>Success Metric:</b> The ratings will be used as the success metric for this project. Initially, the number of votes was considered as a success metric. However, upon exploration of the data, the distribution of votes is heavily skewed as more than 50% of the data had fewer than 50 votes as shown in Figure 1a. Additionally, older restaurants and restaurants with higher ratings are likely to have more votes. Due to these issues, the ratings were chosen as the sole success metric.
 
+<h3>Conclusion</h3>
+Since, this dataset was made in 2017, it is close to 6 years old. Since then new restaurants did open and some in the configurations we predicted, we look at their ratings to see how we did. It was analysed that all our configurations had >4.0 ratings even in the $$$ price bucket. One configuration especially had great results as 2 restaurants in that category are currently (as of 05/2023) are the highest rated restaurants in the city.
+
+<h3>Video for Project</h3>
+The project was documented throughout and contains reports (3), a final presentation and the consequent video presentation. If you want to view the [video] (https://drive.google.com/file/d/1WzAkfUKhs-25JSTSE8Lfx-x3L4-fsZrF/view?usp=share_link), request access through Google Drive.
+
